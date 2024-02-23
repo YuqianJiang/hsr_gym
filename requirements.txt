@@ -1,0 +1,6 @@
+scipy==1.11.4
+numpy==1.26
+opencv-python==4.9.0.80
+rospkg
+gym==0.26.2
+pyrealsense2
