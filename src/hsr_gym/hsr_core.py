@@ -53,7 +53,7 @@ class HSR:
                 self.base = self.robot.try_get('omni_base')
 
                 dir_path = os.path.dirname(os.path.realpath(__file__))
-                self.ik_solver = TracIKSolver(dir_path+"/../../urdf/hsrb4s.urdf", "base_footprint", "hand_palm_link",
+                self.ik_solver = TracIKSolver(dir_path+"/../urdf/hsrb4s.urdf", "base_footprint", "hand_palm_link",
                                               timeout=0.025, epsilon=5e-4, solve_type="Distance")
 
                 break

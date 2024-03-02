@@ -18,4 +18,10 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Run TeleMoMa on the HSR
+## HSR Dependencies
+
+This package controls the HSR by function calls in ```hsrb_interface```.
+
+If you would like to run TeleMoMa on the real HSR, please follow the documentation from Toyota to install the dependencies.
+
+Alternatively, you want to use an open source HSR simulator like [this one](https://github.com/hsr-project/tmc_wrs_docker), you can get ```hsrb_interface``` [here](https://github.com/hsr-project/hsrb_interfaces/tree/master/hsrb_interface_py).
